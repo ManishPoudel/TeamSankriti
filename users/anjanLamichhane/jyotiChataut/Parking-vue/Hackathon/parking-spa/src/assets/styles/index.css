@@ -1,0 +1,10 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+#mapContainer {
+    width: 75vw;
+    height: 75vh;
+  }
+
