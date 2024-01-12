@@ -1,0 +1,33 @@
+{
+  "name": "my-vue3-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "@popperjs/core": "^2.11.8",
+    "autoprefixer": "^10.4.16",
+    "axios": "^1.6.2",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@elfalem/leaflet-curve": "0.7.0",
+    "@tweenjs/tween.js": "17.2.0",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "5.0.8",
+    "@vue/cli-service": "5.0.8",
+    "core-js": "^3.6.5",
+    "leaflet": "^1.9.4",
+    "vite": "^5.0.0"
+  }
+}
+
