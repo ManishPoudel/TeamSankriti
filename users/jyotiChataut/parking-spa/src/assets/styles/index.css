@@ -1,0 +1,18 @@
+@tailwind base;
+
+@tailwind components;
+.navbar-brand {
+ 
+  padding: 10px;
+}
+
+.navbar-brand img {
+  max-height: 50px; 
+}
+
+@tailwind utilities;
+#mapContainer {
+    width: 98vw;
+    height: 75vh;
+  }
+
