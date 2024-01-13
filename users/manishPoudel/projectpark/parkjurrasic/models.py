@@ -4,6 +4,7 @@ from django.db import models
 from django.db import models
 from django.contrib.auth.models import User
 
+
 class Userview(models.Model):
     userid = models.IntegerField(primary_key=True)
     email = models.CharField(max_length=100)
