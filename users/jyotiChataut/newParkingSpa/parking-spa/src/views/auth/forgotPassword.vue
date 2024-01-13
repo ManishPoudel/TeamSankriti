@@ -19,8 +19,8 @@
 export default {
     data(){
         return{
-            email:null
-        }
+           username:""
+        };
     },
     methods:{
         forgotPassword(){

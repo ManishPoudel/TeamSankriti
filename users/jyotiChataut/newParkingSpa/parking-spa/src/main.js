@@ -1,5 +1,8 @@
 import { createApp } from "vue";
 import { createWebHistory, createRouter } from "vue-router";
+import "@maptiler/sdk/dist/maptiler-sdk.css";
+import "@maptiler/geocoding-control/style.css";
+
 
 // styles
 

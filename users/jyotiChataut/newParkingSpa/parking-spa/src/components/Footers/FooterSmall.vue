@@ -2,7 +2,7 @@
   <footer
     class="pb-6"
     :class="[
-      absolute ? 'absolute w-full bottom-0 bg-blueGray-800' : 'relative',
+      absolute ? 'absolute w-full bottom-0 bg-bluegray-800' : 'relative',
     ]"
   >
     <div class="container mx-auto px-4">

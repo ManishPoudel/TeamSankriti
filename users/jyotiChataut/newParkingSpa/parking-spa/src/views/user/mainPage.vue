@@ -1,16 +1,11 @@
-
 <template>
-  <div
-    class="absolute w-full h-full bg-center bg-cover"
-  >
-    <span
-      id="blackOverlay"
-      class="w-full h-full absolute opacity-75 bg-black"
-    ></span>
-
-    <div class=" h-screen w-screen flex flex-col justify-center items-center">
+  <div class="absolute w-full h-full bg-center bg-cover">
+    <div class="h-screen w-screen flex flex-col justify-center items-center">
+      <div id="map" class="h-[80vh] w-[80vw] absolute mb-10"></div>
       <div class="m-5">
-      <leaflet-map/>
+        <div class="overflow-hidden z-10">
+          <leaflet-map />
+        </div>
       </div>
       <!-- <form action="/search" class="max-w-[480px] w-full px-4">
         <div class="relative flex justify-center items-center">
@@ -44,17 +39,16 @@
 </template>
 
 <script>
-  import image from "../../assets/img/map1.jpeg"
-  import LeafletMap from "../../components/Map/mainMap.vue"
+import image from "../../assets/img/map1.jpeg";
+import LeafletMap from "../../components/Map/mainMap.vue";
 export default {
-    data() {
+  data() {
     return {
       image: image,
     };
   },
-components:{
-  LeafletMap
-}
+  components: {
+    LeafletMap,
+  },
 };
 </script>
-
